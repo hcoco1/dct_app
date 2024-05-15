@@ -1,0 +1,30 @@
+00:14:56	Ronnie Liu:	Today’s lab file:
+01:11:42	Eric Huerta:	table = dynamodb.Table(self, 'PropertiesTable',            partition_key=dynamodb.Attribute(                name='zpid',                type=dynamodb.AttributeType.STRING            ),            sort_key=dynamodb.Attribute(                name='creationDate',                type=dynamodb.AttributeType.STRING            ),            removal_policy=rp.DESTROY,            billing_mode=dynamodb.BillingMode.PAY_PER_REQUEST        )
+01:12:54	Ronnie Liu:	How many of us have taken the DVA session prior to this course?
+01:13:22	hemanta kumar nayak:	Replying to "How many of us hav..."
+
+what is dva?
+01:13:57	Ronnie Liu:	Replying to "How many of us have ..."
+
+AWS Certified Developer Associate
+01:14:08	Kenny Noe:	Replying to "How many of us have ..."
+
+not me...
+01:14:19	hemanta kumar nayak:	can u share the link
+01:14:28	Ronnie Liu:	If you’ve taken DVA module, you should be well equipped in choosing the cluster key/sort key. If not, don’t worry about it, you’ll learn more when you get to that module.
+01:14:48	Ronnie Liu:	Reacted to "not me..." with 👍
+01:15:33	Ronnie Liu:	Replying to "can u share the link"
+
+https://aws.amazon.com/certification/certified-developer-associate/
+01:25:52	Kenny Noe:	Reacted to "If you’ve taken DVA ..." with 👍
+01:52:45	Pradeep Kumar:	am getting this any suggestion
+01:53:12	hemanta kumar nayak:	Reacted to "If you’ve taken D..." with 👍
+01:53:39	Ronnie Liu:	Replying to "am getting this any ..."
+
+Check for any typo in the bucket name in your lambda.
+01:53:53	Pradeep Kumar:	oh k i think am missing error_bucket and processed_bucket,
+01:53:58	Pradeep Kumar:	will check on that
+01:54:08	Ronnie Liu:	Reacted to "will check on that" with 👍
+02:14:48	Carruthers:	Thanks for the sessions, Eric and Ronnie.
+02:14:59	Ronnie Liu:	Reacted to "Thanks for the sessi..." with 👍
+02:15:58	Monica Dillon:	Thanks Eric!!
