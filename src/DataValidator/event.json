@@ -1,0 +1,14 @@
+{
+  "Records": [
+    {
+      "s3": {
+        "bucket": {
+          "name": "python3-boto3-hcoco1-test-bucket"
+        },
+        "object": {
+          "key": "2024/may/77021.csv"
+        }
+      }
+    }
+  ]
+}
