@@ -14,16 +14,10 @@
   </a>
 </div>  
 
-# Python and DevOps on AWS Bootcamp
-<<<<<<< HEAD
-
-# SESSION 4: HANDS-ON GUIDE 
-=======
-
-### SESSION 4: HANDS-ON GUIDE 
 
 
->>>>>>> a6900d1 (readme updated)
+<div align="center"><h3>Python and DevOps on AWS Bootcamp</h3></div>
+<div align="center"><h4>Session 4: Hands On Guide</h4></div>
 
 ## /------------- s3.upload.py ---------------/ # https://github.com/hcoco1/s3_upload
 
