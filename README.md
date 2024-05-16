@@ -15,8 +15,15 @@
 </div>  
 
 # Python and DevOps on AWS Bootcamp
+<<<<<<< HEAD
 
 # SESSION 4: HANDS-ON GUIDE 
+=======
+
+## SESSION 4: HANDS-ON GUIDE 
+
+
+>>>>>>> a6900d1 (readme updated)
 
 ## /------------- s3.upload.py ---------------/ # https://github.com/hcoco1/s3_upload
 
