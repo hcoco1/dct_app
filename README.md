@@ -20,7 +20,7 @@
 # SESSION 4: HANDS-ON GUIDE 
 =======
 
-## SESSION 4: HANDS-ON GUIDE 
+### SESSION 4: HANDS-ON GUIDE 
 
 
 >>>>>>> a6900d1 (readme updated)
