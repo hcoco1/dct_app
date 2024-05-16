@@ -1,51 +1,48 @@
 
-# Welcome to your CDK Python project!
+<div align="center"><h1>Ivan Arias</h1></div>
+<div align="center"><h1>Full-Stack Developer | Junior Penetration Tester | AWS Enthusiast </h1></div>
 
-This is a blank project for CDK development with Python.
+<div id="badges" align="center">
+  <a href="https://www.linkedin.com/in/hcoco1/">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  </a>
+  <a href="https://www.youtube.com/channel/UCban0ilP3jBC9rdmL-fPy_Q">
+    <img src="https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white" alt="Youtube Badge"/>
+  </a>
+  <a href="https://twitter.com/hcoco1">
+    <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
+  </a>
+</div>  
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
-This project is set up like a standard Python project.  The initialization
-process also creates a virtualenv within this project, stored under the `.venv`
-directory.  To create the virtualenv it assumes that there is a `python3`
-(or `python` for Windows) executable in your path with access to the `venv`
-package. If for any reason the automatic creation of the virtualenv fails,
-you can create the virtualenv manually.
+# SESSION 4: HANDS-ON GUIDE Python and DevOps on AWS Bootcamp
 
-To manually create a virtualenv on MacOS and Linux:
+## /------------- s3.upload.py ---------------/ # https://github.com/hcoco1/s3_upload
 
+a) `python3 s3_upload/s3_upload.py`
+b) `ls -l s3_upload/csv_files`
+c) `chmod 200 s3_upload/csv_files/FILENAME`
+d) `chmod 644 s3_upload/csv_files/FILENAME`
+
+## /--------------- AWS CDK -----------------/
+
+e) `source .venv/bin/activate`
+f) `cdk deploy`
+g) `cdk destroy`
+
+## /--------------- LAMBDA ------------------/
+
+h) `table = 'DctAppStack-PropertiesTable324F3970-NEBNY78RCM74'`
+i) `sam local invoke -e event.json`
+
+j) 
+```python
+required_keys = ['zpid', 'creationDate', 'streetAddress', 'unit', 'bedrooms', 
+                 'bathrooms', 'homeType', 'priceChange', 'zipcode', 'city', 
+                 'state', 'country', 'livingArea', 'taxAssessedValue', 
+                 'priceReduction', 'datePriceChanged', 'homeStatus', 'price']
 ```
-$ python3 -m venv .venv
-```
 
-After the init process completes and the virtualenv is created, you can use the following
-step to activate your virtualenv.
-
-```
-$ source .venv/bin/activate
-```
-
-If you are a Windows platform, you would activate the virtualenv like this:
-
-```
-% .venv\Scripts\activate.bat
-```
-
-Once the virtualenv is activated, you can install the required dependencies.
-
-```
-$ pip install -r requirements.txt
-```
-
-At this point you can now synthesize the CloudFormation template for this code.
-
-```
-$ cdk synth
-```
-
-To add additional dependencies, for example other CDK libraries, just add
-them to your `setup.py` file and rerun the `pip install -r requirements.txt`
-command.
 
 ## Useful commands
 
